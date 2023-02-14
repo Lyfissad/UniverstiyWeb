@@ -1,0 +1,498 @@
+body{
+    background-color:#fffafa;
+    width: 1500px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#header{
+    background-color:#040720 ;
+    height: 70px;
+    width: 103%;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+#logo{
+    height: 70px;
+}
+
+.topbtn{
+    height:45px;
+	width:140px;
+	position:relative;
+    top: 20px;
+    right: 20px;
+	float:right;
+	margin-right:15px;
+	text-align:center;
+	margin-left:10px;
+	cursor:pointer;
+	border-radius: 3px;
+	font-size:18px;
+	font-family: 'Audiowide';
+	letter-spacing:1px;
+	background-color:#040720;
+	color:white;
+	border:none;
+}
+
+.topbtn:hover{
+	background-color:#000000;
+	 box-shadow:
+   -7px -7px 20px 0px #4ad7f0,
+   -4px -4px 5px 0px #4ad7f0,
+   7px 7px 20px 0px #4ad7f0,
+   4px 4px 5px 0px #4ad7f0;
+}
+
+.toplinks:hover{
+        background-color:#000000;
+         box-shadow:
+       -7px -7px 20px 0px #4ad7f0,
+       -4px -4px 5px 0px #4ad7f0,
+       7px 7px 20px 0px #4ad7f0,
+       4px 4px 5px 0px #4ad7f0;
+}
+
+#heading{
+    color: rgb(131, 235, 253);
+    font-family: 'Caudex';
+    position:relative;
+    bottom: 75px;
+    left: 95px;
+    width: 200px;
+}
+
+#AboutBanner{
+    position: relative;
+    width: 930px;
+    left: 275px;
+    top: 20px;
+    border: 2px solid #d35704;
+}
+
+
+#Recnote{
+	height:620px;
+	width:103%;
+	background-color:#040720;
+	position:relative;
+	right:10px;
+	bottom:-100px;
+	border-top:5px solid #4ad7f0;
+	border-bottom:5px solid #4ad7f0;
+}
+
+#Vicehead{
+    color:white;
+	position:relative;
+	margin-left:30px;
+	padding-top:50px;
+	font-family: 'Caudex';
+}
+
+#ViceMessage{
+        color:white;
+        margin-left:30px;
+        margin-right:700px;
+        font-family: 'Caudex';
+        position:relaive;
+        bottom:35px;
+}
+
+#ViceMessage::first-letter{
+    color:#4ad7f0;
+    font-size: 25px;
+}
+
+#Recpic{
+	position:relative;
+	left:1070px;
+	bottom:530px;
+	transition: transform 0.2s;
+	cursor: pointer;
+	height:400px;
+	width:340px;
+	border-radius: 340px;
+	border: 2px solid rgb(243, 212, 146);
+}
+
+#Recpic:hover{
+	transform: scale(1.1);
+}
+
+#RecCaption{
+	position:relative;
+	bottom:480px;
+	left:1135px;
+    letter-spacing: 2px;
+    font-size: x-large;
+    font-family: 'Bebas Neue';
+	color:#4ad7f0;
+	
+}
+
+#studentBody{
+    position: relative;
+    top: 300px;
+    border-left:4px solid #4ad7f0;
+    border-right:4px solid #4ad7f0;
+}
+
+
+#stuBody{
+    position: relative;
+    top: 150px;
+    width: 1400px;
+    margin-left: 50px;
+    height: 500px;
+    border: 4px solid #040720;
+    border-radius: 8px;
+}
+
+#stuheading{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    text-decoration: underline;
+    position: relative;
+    bottom: 60px;
+    color: rgb(9, 19, 73);
+}
+
+#stuText{
+    font-family: 'Caudex';
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#stuText::first-letter{
+    color:rgb(9, 19, 73);
+    font-size:40px;
+}
+
+
+
+#history{
+    height:840px;
+	width:103%;
+	background-color:#cff5f8;
+	position:relative;
+	right:10px;
+	top:500px;
+	border-top:5px solid #0b1568;
+	border-bottom:5px solid #0b1568;
+}
+
+
+#hisheading{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    letter-spacing: 4px;
+    color:#110f4d;
+}
+
+
+#hisText{
+    color: rgb(12, 12, 49);
+    margin-left: 25px;
+	font-size: 18px;
+    margin-right: 25px;
+    font-family: 'Caudex';
+}
+
+#hisText::first-letter{
+    color:#203acc;
+    font-size: 40px;
+}
+
+
+#hisText2{
+	color: rgb(12, 12, 49);
+    margin-left: 25px;
+	font-size: 18px;
+    margin-right: 25px;
+    font-family: 'Caudex';
+}
+
+#ph{
+	position:relative;
+	right: 250px;
+	top: 100px;
+	font-size:18px;
+	color: rgba(255, 255, 255, 0.377);
+	text-decoration:none;
+}
+
+#ph:hover{
+	color:#d35704;
+	text-decoration:underline;
+}
+
+
+#phicon{
+	color: rgba(255, 255, 255, 0.377);
+	position:relative;
+	bottom: 203px;
+	right: 398px;
+	font-size:20px;
+	text-decoration:none;
+}
+
+#phicon:hover{
+	color:#d35704;
+	text-decoration:underline;
+}
+
+
+#email{
+	position:relative;
+	color: rgba(255, 255, 255, 0.377);
+	right: 150px;
+	top: 100px;
+	font-size:18px;
+	text-decoration:none;
+}
+#email:hover{
+	color:#d35704;
+	text-decoration:underline;
+}
+
+#msglogo{
+	position:relative;
+	color: rgba(255, 255, 255, 0.377);
+	right: 370px;
+	top: 100px;
+	font-size:20px
+}
+
+#msglogo:hover{
+	color:#d35704;
+}
+
+
+
+#botbanner{
+	height: 500px;
+	position: relative;
+	right: 10px;
+    top: 600px;
+	width: 1550px;
+	background-color: #040720;
+	border-top:5px solid #4ad7f0;
+}
+
+.botlinks{
+	position: relative;
+	color: black;
+	text-decoration: none;
+}
+
+#contact{
+	border: 3px solid #d35704;
+	border-radius: 5px;
+	position:relative;
+	left:1100px;
+	bottom: 100px;
+	padding:20px;
+	width: 320px;
+}
+
+.labels{
+	color: rgba(255, 255, 255, 0.377);
+	font-size: 20px;
+}
+
+.inputs{
+	width:300px ;
+	border:1px solid #d35704;
+	background-color: #040720;
+	border-radius: 2px;
+	color: white;
+}
+
+#submitbtn{
+	height: 40px;
+	width: 100px;
+	background-color:#040720;
+	text-decoration: solid;
+	color: rgba(255, 255, 255, 0.377);
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight:bold;
+	border-radius: 20px;
+	border: 3px solid #d35704;
+}
+
+#submitbtn:hover{
+	background-color: white;
+	color: black;
+	
+	font-weight:bold;
+	font-family: "Caudex";
+}
+
+
+#socialhead{
+	color: rgba(255, 255, 255, 0.377);
+	position: relative;
+	left: 400px;
+	bottom: 100px;
+	font-family: 'Artifika';
+}
+
+.navilinks{
+	position: relative;
+	width: 300px;
+	padding: 30px;
+	border: 3px solid #d35704;
+	bottom: 550px;
+	left: 50px;
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 0.377);
+}
+
+.lastlinks{
+	color: rgba(255, 255, 255, 0.377);
+	position: relative;
+	cursor: pointer;
+}
+
+.lastlinks:hover{
+	color:#d35704;
+}
+
+#HR{
+	position: relative;
+	bottom:500px;
+	right: 400px;
+	color:white;
+	width: 1450px;
+}
+
+#copy{
+	color: rgba(255, 255, 255, 0.377);
+	position: relative;
+	bottom: 500px;
+	left: 20px;
+}
+
+#scrollbtn{
+	position: relative;
+	height:50px;
+	width: 100px;
+	right: 470px;
+	color:rgba(255, 255, 255, 0.377);
+	top: 20px;
+	cursor: pointer;
+	border: 3px solid #d35704;
+	background-color: #040720;
+	font-weight: bold;
+	border-radius: 50px;
+}
+
+#scrollbtn:hover{
+	background-color:white;
+	color: black;
+	
+}
+
+.wrapper {
+	display: inline-flex;
+	position: relative;
+	top: 330px;
+	left: 150px;
+  }
+  
+  .icon{
+	border: 4px solid;
+  }
+  .wrapper .icon {
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+	position: absolute;
+	top: 0;
+	font-size: 14px;
+	background-color: #ffffff;
+	color: #ffffff;
+	padding: 5px 8px;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+	position: absolute;
+	content: "";
+	height: 8px;
+	width: 8px;
+	background-color: #ffffff;
+	bottom: -3px;
+	left: 50%;
+	transform: translate(-50%) rotate(45deg);
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+	top: -45px;
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+	background-color: #3b5999;
+	color: #ffffff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+	background-color: #46c1f6;
+	color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+	background-color: #e1306c;
+	color: #ffffff;
+  }
+  
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+	background-color: #e03125;
+	color: #ffffff;
+  }
+  
